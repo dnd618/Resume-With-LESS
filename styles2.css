@@ -51,7 +51,13 @@
   font-size: 1.05em;
   list-style-type: none;
 }
-.project-image {
+.project .project-image {
   height: 200;
   width: 175;
+}
+.greet {
+  margin-top: 80px;
+  margin-left: 305px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
