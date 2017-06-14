@@ -9,7 +9,7 @@ h4 {
   border: 3px black solid;
   display: inline;
   padding: 10px;
-  color: orangered;
+  color: orangered !important;
 }
 .navigation .nav-bar {
   margin-left: 700px;
@@ -24,11 +24,12 @@ h4 {
   margin-bottom: 21em;
 }
 .photo {
-  margin-top: 50px;
+  margin-top: 49px;
   height: 290px;
   width: 270px;
   position: relative;
-  margin-left: 100px;
+  margin-left: 20em;
+  top: 2em;
 }
 .about {
   margin-top: -1.5em;
@@ -55,9 +56,15 @@ h4 {
   max-height: 500px;
   height: 400px;
 }
+h1 {
+  position: relative;
+  top: 1.5em;
+  left: 7em;
+  font-size: 42px;
+}
 .details {
-  margin-top: 14em;
-  margin-left: 2em;
+  margin-top: 13em;
+  margin-left: 15em;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -129,8 +136,4 @@ button {
 .bye {
   display: inline-block;
   padding: 20px;
-}
-body {
-  margin: 0 auto;
-  max-width: 1200px;
 }
