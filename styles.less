@@ -5,22 +5,32 @@
     .logo{
         margin-left: 40px;
         margin-bottom: -40px;
-    }
-    h4 {
-    border: 3px black solid;
-    display: inline;
-    padding: 10px;
-    color: orangered !important;
+
+        h4 {
+        border: 3px black solid;
+        display: inline;
+        padding: 10px;
+        color: orangered;
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: large;
+        }
     }
 .navigation 
     .nav-bar {
     margin-left: 700px; 
     }
     .nav {
-    display: inline-block;
-    border-bottom: 3px solid orangered;
-    margin: 20px;
+        display: inline-block;
+        border-bottom: 3px solid orangered;
+        margin: 20px;
+        a {
+        color: black;
+        text-decoration: none;
+        font-family: Georgia;
+}
     }
+
 //Intro & Description
 .description     {
     position: relative;
@@ -35,7 +45,7 @@
     top: 2em;
     }
     .about {
-    margin-top: -1.5em;
+    margin-top: -0.5em;
     margin-left: 10.25em;
     position: absolute;
     height: 200px;
@@ -43,22 +53,24 @@
     }
     .about-text {
     color: orangered;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: Georgia;
+    font-weight: bold;
     }
-        .location     {
+        .location {
         position: relative;
-        margin-top: 5em;
-        margin-left: 22.5em;
+        margin-top: 8em;
+        margin-left: 36.7em;
         }
 .introduction {
     position: relative;
     margin-top: -18em;
-    margin-left: 7em;
+    margin-left: 14em;
     background-color: lightgray;
     max-width: 1100px;
     max-height: 500px;
     height: 400px;
-}
+    }
     h1 {
     position: relative;
     top: 1.5em;
@@ -76,8 +88,8 @@
         }
     .box {
     position: relative;
-    margin-top: -18em;
-    margin-left: 40em;
+    margin-top: -23em;
+    margin-left: 55em;
     max-width: 500px;
     border: 2px black solid;
     width: 490px;
@@ -95,16 +107,17 @@
     }
 //Images//
 .project {
+    .project {
+    position: static;
     max-width: 1000px;
-    margin-top: 40em;
-    margin-bottom: 5em;
+    margin: auto;
     }
     .project-images {
     height:200px;
     margin: none;
     }
 //Contact//
-    .contact {
+.contact {
     padding-bottom: 70px;
     }
     form {
@@ -118,11 +131,12 @@
    background-color: lightgrey;
    color: grey;
     }
-    .comment::placeholder  {
-    color: red;
-    margin-top: 30px;
-    height: 150px;
-    }
+   .comment
+        .greet {    
+        margin-top: 20px;
+        margin-bottom: 63px;
+        }
+
     button {
      height: 30px;
      width: 60px;
@@ -134,13 +148,15 @@
 //Footer//
 .images {
     margin-left: 500px;
-    }
-.size {
+    
+    .size {
     height:30px;
     width:30px;
+    -ms-wrap-margin: auto;
     }
-
+}
 .bye {
     display: inline-block;
     padding: 20px;
     } 
+}

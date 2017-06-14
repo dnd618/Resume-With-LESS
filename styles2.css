@@ -5,11 +5,14 @@
   margin-left: 40px;
   margin-bottom: -40px;
 }
-h4 {
+.logo h4 {
   border: 3px black solid;
   display: inline;
   padding: 10px;
-  color: orangered !important;
+  color: orangered;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: large;
 }
 .navigation .nav-bar {
   margin-left: 700px;
@@ -18,6 +21,11 @@ h4 {
   display: inline-block;
   border-bottom: 3px solid orangered;
   margin: 20px;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+  font-family: Georgia;
 }
 .description {
   position: relative;
@@ -32,25 +40,27 @@ h4 {
   top: 2em;
 }
 .about {
-  margin-top: -1.5em;
-  margin-left: 6.25em;
+  margin-top: -0.5em;
+  margin-left: 10.25em;
   position: absolute;
   height: 200px;
   width: 500px;
 }
 .about-text {
   color: orangered;
-  font-size: 50px;
+  font-size: 40px;
+  font-family: Georgia;
+  font-weight: bold;
 }
 .location {
   position: relative;
-  margin-top: 5em;
-  margin-left: 22.5em;
+  margin-top: 8em;
+  margin-left: 36.7em;
 }
 .introduction {
   position: relative;
   margin-top: -18em;
-  margin-left: 7em;
+  margin-left: 14em;
   background-color: lightgray;
   max-width: 1100px;
   max-height: 500px;
@@ -73,8 +83,8 @@ li {
 }
 .box {
   position: relative;
-  margin-top: -18em;
-  margin-left: 40em;
+  margin-top: -23em;
+  margin-left: 55em;
   max-width: 500px;
   border: 2px black solid;
   width: 490px;
@@ -90,22 +100,22 @@ li {
   height: 200px;
   padding: 40px;
 }
-.project {
+.project .project {
+  position: static;
   max-width: 1000px;
-  margin-top: 40em;
-  margin-bottom: 5em;
+  margin: auto;
 }
-.project-images {
+.project .project-images {
   height: 200px;
   margin: none;
 }
-.contact {
+.project .contact {
   padding-bottom: 70px;
 }
-form {
+.project form {
   margin-left: 400px;
 }
-input {
+.project input {
   height: 30px;
   width: 500px;
   display: block;
@@ -113,12 +123,11 @@ input {
   background-color: lightgrey;
   color: grey;
 }
-.comment::placeholder {
-  color: red;
-  margin-top: 30px;
-  height: 150px;
+.project .comment .greet {
+  margin-top: 20px;
+  margin-bottom: 63px;
 }
-button {
+.project button {
   height: 30px;
   width: 60px;
   margin-left: 445px;
@@ -126,14 +135,15 @@ button {
   background-color: orangered;
   border-radius: 5px;
 }
-.images {
+.project .images {
   margin-left: 500px;
 }
-.size {
+.project .images .size {
   height: 30px;
   width: 30px;
+  -ms-wrap-margin: auto;
 }
-.bye {
+.project .bye {
   display: inline-block;
   padding: 20px;
 }
