@@ -6,6 +6,7 @@
   margin-top: -6em;
   margin-left: 37.7em;
   text-transform: uppercase;
+  font-style: bold;
 }
 .logo {
   margin-left: 40px;
@@ -36,6 +37,12 @@
 .description {
   position: relative;
   margin-bottom: 21em;
+}
+.container .col-lg-5 {
+  background-color: lightgrey;
+}
+.container .col-lg-7 {
+  background-color: lightgrey;
 }
 .photo {
   height: 290px;
